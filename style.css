@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.body{
-    background-color: #fcefef09;
-}
-
 /*Navbar */
 .navbar {
     background-color: #FAEBEB;
@@ -34,15 +30,17 @@
 /* immagine hero */
 .bgimage {
     height: 100vh;
-    background: url(images/408898007_269913582743885_8602007719986511293_n.jpg) no-repeat center center;
+    background: url(images/hero1.jpg) no-repeat center center;
     position: relative;
     background-size: cover;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 /* testo hero */
 .hero_title{
-    font-size: 5rem;
+    font-size: 8rem;
+    color: #fff;
+    
 }
 
 .hero_sub {
@@ -50,9 +48,9 @@
 }
 
 .hero_text {
-    text-align: start;
+    text-align: end;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
