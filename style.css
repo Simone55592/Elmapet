@@ -61,12 +61,15 @@
 }
 
 .fab:hover{
-    color: green;
+    color: rgb(250, 170, 83);
 }
 .social-icons {
     font-size: 36px;
 }
-
+ .foto-info{
+    width: 300px;
+    height: 500px;
+ }
 /* sezione servizi*/
 .img-servizi {
     width: 100%;
