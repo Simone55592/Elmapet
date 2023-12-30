@@ -99,6 +99,13 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.titolo-servizi{
+    font-size: 30px;
+    font-family: 'Amatic SC', sans-serif;
+    color: #9B6093;
+    font-weight: bold;
+}
 /* Carosello */
 #carouselCaptions{
     max-width: 900px;
