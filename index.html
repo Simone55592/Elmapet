@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="slider/risorse/owl.carousel.min.css">
+    <link rel="stylesheet" href="slider/risorse/owl.theme.default.min.css">
     <!--Tag OG-->
 
     <!-- link css -->
@@ -17,6 +20,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- javascript Slider -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="slider/risorse/owl.carousel.js"></script>
+    <script type="text/javascript">
+
+      $( document ).ready(function() {
+        
+            $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:20,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:2
+            }
+        }
+        })
+
+      });
+
+    </script>
 </head>
 <body class="body">
     <!-- Navbar -->
@@ -62,7 +92,7 @@
     </section>
     <!-- Sezione Info -->
     <section id="info">
-      <div class="container mt-4 pt-5">
+      <div class="container pt-5">
           <h1 class="text-center titolo">Informazioni</h1>
           <div class="row mt-4">
               <div class="col-lg-6 text-center offset-lg-3 mb-4">
@@ -73,7 +103,7 @@
                     <div class="col-12 col-lg-6">
                   <!--Immagine 1-->
                       <div class="it-grid-item-wrapper">
-                        <a href="https://www.instagram.com/p/CzrJ-2NLkBY/">
+                        <a target="_blank" href="https://www.instagram.com/p/CzrJ-2NLkBY/">
                           <div class="img-responsive-wrapper">
                             <div class="img-responsive">
                               <div class="img-wrapper"><img class="foto-info" src="images/soc.jpg" alt="image Alt" title="Image Title"></div>
@@ -85,7 +115,7 @@
                   <!--Immagine 2-->
                     <div class="col-12 col-lg-6">
                       <div class="it-grid-item-wrapper">
-                        <a href="https://www.instagram.com/p/C1Zcp5XqpLV/">
+                        <a target="_blank" href="https://www.instagram.com/p/C1Zcp5XqpLV/">
                           <div class="img-responsive-wrapper">
                             <div class="img-responsive">
                               <div class="img-wrapper"><img class="foto-info" src="images/soc2.jpg" alt="image Alt" title="Image Title"></div>
@@ -96,8 +126,8 @@
                     </div>
                   </div>
                   <!--Social-->
-                  <h1 class="titolo mt-4">Dai un'occhiata ai nostri social</h1>
-                  <div class="social-icons mt-4">
+                  <h1 class="titolo mt-5">Dai un'occhiata ai nostri social</h1>
+                  <div class="social-icons">
                       <a href="https://www.facebook.com/Elmapet14" target="_blank"><i class="fab fa-facebook"></i></a>
                       <a href="https://www.instagram.com/elmapet1/" target="_blank"><i class="fab fa-instagram"></i></a>
                       <a href="https://www.tiktok.com/@elmapet1?lang=it-IT" target="_blank"><i class="fab fa-tiktok"></i></a>
@@ -108,10 +138,9 @@
     </section>
     <!-- Sezione Servizi -->
     <section id="servizi">
-      <div class="container mt-4 pt-5">
+      <div class="container pt-5">
         <h1 class="text-center titolo">I nostri servizi</h1>
-        <p class="col-lg-6 text-center offset-lg-3 mb-4">Realizza una cuccia personalizzata per il tuo amico a 4 zampe, con <b>Elma Pet</b> puoi: <br> 🦮 Personalizzare le misure <br> 🎨 Scegliere la fantasia <br> 🧵Scegliere tra tantissimi tessuti <br> 🐶Fare felice il tuo amico peloso</p>
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 text-center">
+        <p class="col-lg-6 text-center offset-lg-3 mb-4">Realizza una cuccia personalizzata per il tuo amico a 4 zampe, con <b>Elma Pet</b> puoi:</p>        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 text-center">
           <div class="col">
             <div class="card card-teaser border-0">
               <div class="card-body icone-servizi">
@@ -211,8 +240,81 @@
     </section>
     <!--Carosello-->
     <section id="cucce">
-      <h1 class="text-center titolo">Le nostre cucce</h1>
-      <div class="col-lg-6 offset-lg-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur veritatis sed sequi porro ducimus amet dolor molestiae fuga neque! Natus sunt similique ipsum. Ut magnam eius fuga commodi nam asperiores!</div>
+      <div class="container pt-5">
+        <h1 class="text-center titolo">Le nostre cucce</h1>
+        <div class="col-lg-6 offset-lg-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur veritatis sed sequi porro ducimus amet dolor molestiae fuga neque! Natus sunt similique ipsum. Ut magnam eius fuga commodi nam asperiores!</div>
+          <!--Primo-->
+          
+          <div class="container mt-5">
+            <h4 class="titolo text-center mb-4">Cucce Rotonde</h4>
+            <div class="owl-carousel owl-theme">
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0002 (1).jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0003 (1).jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0012.jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0064.jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/soc.jpg" alt=""></div>
+          </div>
+
+          <!--Secondo-->
+          <hr>
+          <div class="container mt-5">
+            <h4 class="titolo text-center mb-4">Cucce Rettangolari</h4>
+            <div class="owl-carousel owl-theme">
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0002 (1).jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0003 (1).jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0012.jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0064.jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/soc.jpg" alt=""></div>
+          </div>
+
+          <!--Terzo-->
+          <hr>
+          <div class="container mt-5">
+            <h4 class="titolo text-center mb-4">Cucce Rotonde</h4>
+            <div class="owl-carousel owl-theme">
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0002 (1).jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0003 (1).jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0012.jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/DSCF0064.jpg" alt=""></div>
+            <div class="item"><img class="immagineCarosello" src="images/soc.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
     </section>
+    
+    <!-- Contatti -->
+    <section id="contatti">
+      <div class="container mt-3 text-center">
+          <h1 class="text-center titolo mt-5">Contattaci</h1>
+          <p class="col-lg-6 text-center offset-lg-3 mb-4">Hai due modi per metterti in contatto con noi, puoi compilare questo <b><a class="questionario" href="#">questionario</a></b> rispondendo alle domande standard che noi facciamo, oppure puoi compilare il form qui sotto, in entrambi i casi ti ricontatteremo costruendo insieme a te la cuccia perfetta per il tuo amico a 4 zampe!</p>
+          <div class="row mt-4">
+              <div class="col-lg-6 offset-lg-3">
+                  <!-- Form -->
+                  <form action="https://formspree.io/f/mayggvde" method="post">
+                      <input type="text" name="name" class="form-control form-control-lg" placeholder="Nome" required>
+                      <input type="email" name="email" class="form-control form-control-lg mt-3" placeholder="Email" required>
+                      <div class="mb-3 mt-3">
+                          <textarea class="form-control" name="message" rows="5" id="comment" name="text" placeholder="Scrivici qui" required></textarea>
+                      </div>
+                      <button type="submit" class="invia mt-3">Invia</button>
+                  </form>     
+              </div>
+          </div>
+      </div>
+    </section>
+  
+    <!-- footer-->
+    <footer id="footer">
+      <div class="container-fluid">
+          <!-- social media -->
+          <div class="social-icons mt-4">
+              <a href="https://www.facebook.com/simone.adamo.33/" target="_blank"><i class="foot fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/adamo.simone5/" target="_blank"><i class="foot fab fa-instagram"></i></a>
+              <a href="https://github.com/Simone55592" target="_blank"><i class="foot fab fa-github"></i></a>
+          </div>
+      </div>
+      <div class="copyright">Copyright © 2023 Elma Pet . All rights reserved. Design By <a href="index.html" class="footer-link">Simone Adamo</a> Images<a href="index.html" class="footer-link"> Elma Pet</a> Icons <a href="https://fontawesome.com/" class="footer-link">Font Awesome</a></div>
+    </footer>
+
 </body>
 </html>

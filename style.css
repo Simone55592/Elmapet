@@ -107,16 +107,70 @@
     font-weight: bold;
 }
 /* Carosello */
-#carouselCaptions{
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
+
+.item{
+    width: 100%;
+    height: 400px;
 }
 
 .immagineCarosello{
-    width: 900px;
+    width: 300px;
     height: 500px;
 }
 
+/*Form*/
 
+.questionario {
+    text-decoration: none;
+    color: #000000;
+    transition-property: color;
+    transition-duration: 100ms
+}
+
+.questionario:hover{
+    color: #9B6093;
+}
+
+.invia {
+    background-color:  #b069a7;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition-property: background-color;
+    transition-duration: 1000ms
+}
+
+.invia:hover {
+    transform: background-color;
+    background-color: #9B6093;
+}
+
+/* footer */
+#footer {
+    background-color: #4b4b4b;
+    text-align: center;
+    cursor: default;
+}
+
+.social-icons {
+    font-size: 36px;
+}
+
+.foot:hover {
+    color: #9B6093;
+}
+
+.foot {
+    color: #000000;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover{
+    color: #9B6093;
+}
