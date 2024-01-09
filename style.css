@@ -58,6 +58,8 @@
 /* Informazioni*/
 .fab{
     color: #000000;
+    transition-property: color;
+    transition-duration: 800ms
 }
 
 .fab:hover{
@@ -110,7 +112,7 @@
 
 .item{
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .immagineCarosello{
@@ -128,11 +130,11 @@
 }
 
 .questionario:hover{
-    color: #9B6093;
+    color: rgb(250, 170, 83);
 }
 
 .invia {
-    background-color:  #b069a7;
+    background-color:  rgb(250, 170, 83);
     width: 100px;
     height: 40px;
     border: none;
@@ -144,7 +146,7 @@
 
 .invia:hover {
     transform: background-color;
-    background-color: #9B6093;
+    background-color: rgb(231, 140, 42);
 }
 
 /* footer */
@@ -159,7 +161,7 @@
 }
 
 .foot:hover {
-    color: #9B6093;
+    color: rgb(250, 170, 83);
 }
 
 .foot {
@@ -172,5 +174,5 @@
 }
 
 .footer-link:hover{
-    color: #9B6093;
+    color: rgb(250, 170, 83);
 }
