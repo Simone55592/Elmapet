@@ -56,6 +56,31 @@
     transform: translate(-50%, -50%);
     color: #f3f3f3;
 }
+
+/*Tasto Wa*/
+.wa-btn{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    transition: 300ms all ease-in-out;
+}
+
+.wa-btn:hover{
+    transform: scale(1.2,1.2);
+}
+
+.waButton path:nth-child(1){
+    fill: green;
+    transition: 300ms all ease-in-out;
+}
+
+.waButton:hover path:nth-child(1){
+    fill: darkgreen;
+}
 /* Informazioni*/
 .fab{
     color: #000000;
