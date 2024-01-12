@@ -48,6 +48,15 @@
     font-size: 2rem;
 }
 
+.hero_text_sub{
+    text-align: end;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f3f3f3;
+}
+
 .hero_text {
     text-align: end;
     position: absolute;
@@ -55,6 +64,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f3f3f3;
+}
+
+/* Mobile styles*/
+@media only screen and (max-width: 1200px){
+    .hero_text_sub {
+        /* position: absolute;
+        top: 55%;
+        color: #ff0c0c;
+        font-weight: bold;
+        text-align: center;
+        font-size: large; */
+        display: none;
+    }
+    .hero_text{
+        top: 10%;
+        text-align: center;
+    }
 }
 
 /*Tasto Wa*/
